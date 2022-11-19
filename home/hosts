@@ -1,5 +1,3 @@
-[gitlab_runners_upstairs]
+[gitlab_runners]
 jamacer
-
-[gitlab_runners:children]
-gitlab_runners_upstairs
+asuspn51
