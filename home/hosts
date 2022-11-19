@@ -1,0 +1,5 @@
+[gitlab_runners_upstairs]
+jamacer
+
+[gitlab_runners:children]
+gitlab_runners_upstairs
