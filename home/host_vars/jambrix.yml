@@ -1,0 +1,3 @@
+---
+gitlab_runner_host_tags:
+  - big-build
