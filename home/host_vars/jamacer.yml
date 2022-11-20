@@ -1,3 +1,5 @@
 ---
 gitlab_runner_host_tags:
   - small-build
+gitlab_runner_host_count: 3
+gitlab_runner_host_run_untagged: true
