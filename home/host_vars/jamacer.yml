@@ -3,3 +3,13 @@ gitlab_runner_host_tags:
   - small-build
 gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
+vsts_agents:
+  - pool: FedoraHosted
+    name: jamacer_1
+    folder: FedoraHosted/jamacer_1
+  - pool: FedoraHosted
+    name: jamacer_2
+    folder: FedoraHosted/jamacer_2
+  - pool: FedoraHosted
+    name: jamacer_3
+    folder: FedoraHosted/jamacer_3

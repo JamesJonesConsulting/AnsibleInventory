@@ -3,3 +3,13 @@ gitlab_runner_host_tags:
   - small-build
 gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
+vsts_agents:
+  - pool: FedoraHosted
+    name: sganbuild01_1
+    folder: FedoraHosted/sganbuild01_1
+  - pool: FedoraHosted
+    name: sganbuild01_2
+    folder: FedoraHosted/sganbuild01_2
+  - pool: FedoraHosted
+    name: sganbuild01_3
+    folder: FedoraHosted/sganbuild01_3

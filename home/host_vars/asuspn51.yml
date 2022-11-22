@@ -3,3 +3,21 @@ gitlab_runner_host_tags:
   - big-build
 gitlab_runner_host_count: 5
 gitlab_runner_host_run_untagged: true
+vsts_agents:
+  - pool: FedoraHosted
+    name: asuspn51_1
+    folder: FedoraHosted/asuspn51_1
+  - pool: FedoraHosted
+    name: asuspn51_2
+    folder: FedoraHosted/asuspn51_2
+  - pool: FedoraHosted
+    name: asuspn51_3
+    folder: FedoraHosted/asuspn51_3
+  - pool: FedoraHosted
+    name: asuspn51_4
+    folder: FedoraHosted/asuspn51_4
+  - pool: FedoraHosted
+    name: asuspn51_5
+    folder: FedoraHosted/asuspn51_5
+
+    
