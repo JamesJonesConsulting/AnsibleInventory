@@ -3,7 +3,7 @@ gitlab_runner_host_tags:
   - small-build
 gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
-vsts_agents:
+vsts_host_agents:
   - pool: FedoraHosted
     name: beebox_1
     folder: FedoraHosted/beebox_1
