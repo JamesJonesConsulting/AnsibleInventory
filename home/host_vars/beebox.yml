@@ -7,9 +7,12 @@ vsts_agents:
   - pool: FedoraHosted
     name: beebox_1
     folder: FedoraHosted/beebox_1
+    username: jam
   - pool: FedoraHosted
     name: beebox_2
     folder: FedoraHosted/beebox_2
+    username: jam
   - pool: FedoraHosted
     name: beebox_3
     folder: FedoraHosted/beebox_3
+    username: jam

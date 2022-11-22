@@ -7,17 +7,22 @@ vsts_agents:
   - pool: FedoraHosted
     name: asuspn51_1
     folder: FedoraHosted/asuspn51_1
+    username: jam
   - pool: FedoraHosted
     name: asuspn51_2
     folder: FedoraHosted/asuspn51_2
+    username: jam
   - pool: FedoraHosted
     name: asuspn51_3
     folder: FedoraHosted/asuspn51_3
+    username: jam
   - pool: FedoraHosted
     name: asuspn51_4
     folder: FedoraHosted/asuspn51_4
+    username: jam
   - pool: FedoraHosted
     name: asuspn51_5
     folder: FedoraHosted/asuspn51_5
+    username: jam
 
     

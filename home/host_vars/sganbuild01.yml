@@ -7,9 +7,12 @@ vsts_agents:
   - pool: FedoraHosted
     name: sganbuild01_1
     folder: FedoraHosted/sganbuild01_1
+    username: jam
   - pool: FedoraHosted
     name: sganbuild01_2
     folder: FedoraHosted/sganbuild01_2
+    username: jam
   - pool: FedoraHosted
     name: sganbuild01_3
     folder: FedoraHosted/sganbuild01_3
+    username: jam

@@ -7,9 +7,12 @@ vsts_agents:
   - pool: FedoraHosted
     name: jamacer_1
     folder: FedoraHosted/jamacer_1
+    username: jam
   - pool: FedoraHosted
     name: jamacer_2
     folder: FedoraHosted/jamacer_2
+    username: jam
   - pool: FedoraHosted
     name: jamacer_3
     folder: FedoraHosted/jamacer_3
+    username: jam

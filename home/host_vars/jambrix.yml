@@ -7,21 +7,28 @@ vsts_agents:
   - pool: FedoraHosted
     name: jambrix_1
     folder: FedoraHosted/jambrix_1
+    username: jam
   - pool: FedoraHosted
     name: jambrix_2
     folder: FedoraHosted/jambrix_2
+    username: jam
   - pool: FedoraHosted
     name: jambrix_3
     folder: FedoraHosted/jambrix_3
+    username: jam
   - pool: FedoraHosted
     name: jambrix_4
     folder: FedoraHosted/jambrix_4
+    username: jam
   - pool: FedoraHosted
     name: jambrix_5
     folder: FedoraHosted/jambrix_5
+    username: jam
   - pool: FedoraHosted
     name: jambrix_6
     folder: FedoraHosted/jambrix_6
+    username: jam
   - pool: FedoraHosted
     name: jambrix_7
     folder: FedoraHosted/jambrix_7
+    username: jam
