@@ -1,1 +1,2 @@
 vsts_agent_host_url: https://dev.azure.com/JamesJonesConsulting
+vsts_agent_host_podman_group: docker
