@@ -16,7 +16,7 @@ vsts_host_agents:
     name: jamacer_3
     folder: FedoraHosted/jamacer_3
     username: jam
-github_actions_agents:
+github_actions_host_agents:
   - pool: FedoraHosted
     name: jamacer_1
     folder: FedoraHosted/jamacer_1
