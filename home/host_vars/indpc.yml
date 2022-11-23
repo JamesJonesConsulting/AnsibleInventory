@@ -1,0 +1,13 @@
+---
+gitlab_runner_host_tags:
+  - small-build
+gitlab_runner_host_count: 3
+gitlab_runner_host_run_untagged: true
+vsts_host_agents:
+  - pool: FedoraHosted
+    name: indpc_1
+    folder: FedoraHosted/indpc_1
+    username: jam
+github_actions_host_agents:
+  - name: indpc_1
+    username: jam

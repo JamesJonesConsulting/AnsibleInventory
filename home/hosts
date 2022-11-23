@@ -4,6 +4,7 @@ asuspn51
 jambrix
 beebox
 sganbuild01
+indpc
 
 [vsts_agent]
 jamacer
@@ -11,6 +12,7 @@ asuspn51
 jambrix
 beebox
 sganbuild01
+indpc
 
 [github_actions_agents]
 jamacer
@@ -18,3 +20,4 @@ asuspn51
 jambrix
 beebox
 sganbuild01
+indpc
