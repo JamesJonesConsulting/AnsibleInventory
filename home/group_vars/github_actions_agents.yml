@@ -1,3 +1,2 @@
-github_actions_agent_podman_group: docker
-github_actions_agent_url: https://github.com/JamesJonesConsulting
-github_actions_agent_registration_token: "{{ token }}"
+github_actions_agent_host_podman_group: docker
+github_actions_agent_host_url: https://github.com/JamesJonesConsulting
