@@ -24,5 +24,16 @@ vsts_host_agents:
     name: asuspn51_5
     folder: FedoraHosted/asuspn51_5
     username: jam
+github_actions_host_agents:
+  - name: asuspn51_1
+    username: jam
+  - name: asuspn51_2
+    username: jam
+  - name: asuspn51_3
+    username: jam
+  - name: asuspn51_4
+    username: jam
+  - name: asuspn51_5
+    username: jam
 
     

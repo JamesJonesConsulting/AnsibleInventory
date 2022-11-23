@@ -16,3 +16,10 @@ vsts_host_agents:
     name: sganbuild01_3
     folder: FedoraHosted/sganbuild01_3
     username: jam
+github_actions_host_agents:
+  - name: sganbuild01_1
+    username: jam
+  - name: sganbuild01_2
+    username: jam
+  - name: sganbuild01_3
+    username: jam

@@ -32,3 +32,18 @@ vsts_host_agents:
     name: jambrix_7
     folder: FedoraHosted/jambrix_7
     username: jam
+github_actions_host_agents:
+  - name: jambrix_1
+    username: jam
+  - name: jambrix_2
+    username: jam
+  - name: jambrix_3
+    username: jam
+  - name: jambrix_4
+    username: jam
+  - name: jambrix_5
+    username: jam
+  - name: jambrix_6
+    username: jam
+  - name: jambrix_7
+    username: jam

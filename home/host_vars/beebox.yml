@@ -16,3 +16,10 @@ vsts_host_agents:
     name: beebox_3
     folder: FedoraHosted/beebox_3
     username: jam
+github_actions_host_agents:
+  - name: beebox_1
+    username: jam
+  - name: beebox_2
+    username: jam
+  - name: beebox_3
+    username: jam
