@@ -1,0 +1,29 @@
+---
+gitlab_runner_host_tags:
+  - small-build
+gitlab_runner_host_count: 3
+gitlab_runner_host_run_untagged: true
+vsts_host_agents:
+  - pool: FedoraHosted
+    name: jamdb_1
+    folder: FedoraHosted/jamdb_1
+    username: jam
+  - pool: FedoraHosted
+    name: jamdb_2
+    folder: FedoraHosted/jamdb_2
+    username: jam
+  - pool: FedoraHosted
+    name: jamdb_3
+    folder: FedoraHosted/jamdb_3
+    username: jam
+github_actions_host_agents:
+  - name: jamdb_1
+    username: jam
+  - name: jamdb_2
+    username: jam
+  - name: jamdb_3
+    username: jam
+
+
+
+
