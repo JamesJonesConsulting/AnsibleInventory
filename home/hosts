@@ -6,6 +6,7 @@ beebox
 sganbuild01
 indpc
 jamdb
+rancher01
 
 [vsts_agent]
 jamacer
@@ -24,3 +25,6 @@ beebox
 sganbuild01
 indpc
 jamdb
+
+[rancher]
+rancher01
