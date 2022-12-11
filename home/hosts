@@ -1,16 +1,13 @@
 [gitlab_runners]
 jamacer
-asuspn51
 jambrix
 beebox
 sganbuild01
 indpc
 jamdb
-rancher01
 
 [vsts_agent]
 jamacer
-asuspn51
 jambrix
 beebox
 sganbuild01
@@ -19,12 +16,21 @@ jamdb
 
 [github_actions_agents]
 jamacer
-asuspn51
 jambrix
 beebox
 sganbuild01
 indpc
 jamdb
 
-[rancher]
-rancher01
+[kubernetes_worker]
+worker01.jamesjonesconsulting.com
+worker02.jamesjonesconsulting.com
+
+[kubernetes_controller]
+control01.jamesjonesconsulting.com
+control02.jamesjonesconsulting.com
+control03.jamesjonesconsulting.com
+
+[kubernetes:children]
+kubernetes_controller
+kubernetes_worker
