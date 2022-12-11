@@ -1,7 +1,1 @@
----
-openshift_master_identity_providers:
-  - name: htpasswd_auth
-    login: 'true'
-    challenge: 'true'
-    kind: HTPasswdPasswordIdentityProvider
-openshift_master_default_subdomain: apps.jamesjonesconsulting.com
+kubernetes_allow_pods_on_control_plane: false
