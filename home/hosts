@@ -22,15 +22,21 @@ build01.jamesjonesconsulting.com
 indpc
 jamdb
 
-[kubernetes_worker]
+[kube_node]
 worker01.jamesjonesconsulting.com
 worker02.jamesjonesconsulting.com
 
-[kubernetes_controller]
+[kube_control_plane]
 control01.jamesjonesconsulting.com
 control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
 
-[kubernetes:children]
-kubernetes_controller
-kubernetes_worker
+[etcd:children]
+kube_control_plane
+
+[k8s_cluster:children]
+kube_control_plane
+kube_node
+
+; [calico_rr]
+
