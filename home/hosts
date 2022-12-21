@@ -40,3 +40,14 @@ kube_node
 
 ; [calico_rr]
 
+[salt:children]
+salt_master
+salt_minion
+
+[salt_master]
+build01.jamesjonesconsulting.com
+
+[salt_minion:children]
+kube_node
+kube_control_plane
+
