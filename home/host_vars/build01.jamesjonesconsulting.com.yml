@@ -24,3 +24,16 @@ github_actions_host_agents:
     username: jam
   - name: sganbuild01_3
     username: jam
+salt:
+  cockpit:
+    pkg:
+      - installed
+    service:
+      - name: cockpit.socket
+      - running
+      - enable: true
+    firewalld:
+      - add_service cockpit permanent=True
+      - reload_rules
+    # sudo systemctl enable --now cockpit.socket
+    #   sudo firewall-cmd --add-service=cockpit --permanent
