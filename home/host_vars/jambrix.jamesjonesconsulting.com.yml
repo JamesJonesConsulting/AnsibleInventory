@@ -1,4 +1,6 @@
 ---
+ansible_user: jam
+ansible_host: 192.168.1.23
 gitlab_runner_host_tags:
   - big-build
 gitlab_runner_host_count: 7

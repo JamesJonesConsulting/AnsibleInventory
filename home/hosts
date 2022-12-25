@@ -1,26 +1,29 @@
 [gitlab_runners]
-jamacer
-jambrix
-beebox
+jamacer.jamesjonesconsulting.com
+jambrix.jamesjonesconsulting.com
+beebox.jamesjonesconsulting.com
 build01.jamesjonesconsulting.com
-indpc
-jamdb
+build02.jamesjonesconsulting.com
+indpc.jamesjonesconsulting.com
+jamdb.jamesjonesconsulting.com
 
 [vsts_agent]
-jamacer
-jambrix
-beebox
+jamacer.jamesjonesconsulting.com
+jambrix.jamesjonesconsulting.com
+beebox.jamesjonesconsulting.com
 build01.jamesjonesconsulting.com
-indpc
-jamdb
+build02.jamesjonesconsulting.com
+indpc.jamesjonesconsulting.com
+jamdb.jamesjonesconsulting.com
 
 [github_actions_agents]
-jamacer
-jambrix
-beebox
+jamacer.jamesjonesconsulting.com
+jambrix.jamesjonesconsulting.com
+beebox.jamesjonesconsulting.com
 build01.jamesjonesconsulting.com
-indpc
-jamdb
+build02.jamesjonesconsulting.com
+indpc.jamesjonesconsulting.com
+jamdb.jamesjonesconsulting.com
 
 [kube_node]
 worker01.jamesjonesconsulting.com
