@@ -7,23 +7,23 @@ gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
 vsts_host_agents:
   - pool: FedoraHosted
-    name: sganbuild01_1
-    folder: FedoraHosted/sganbuild01_1
+    name: build02_1
+    folder: FedoraHosted/build02_1
     username: jam
   - pool: FedoraHosted
-    name: sganbuild01_2
-    folder: FedoraHosted/sganbuild01_2
+    name: build02_2
+    folder: FedoraHosted/build02_2
     username: jam
   - pool: FedoraHosted
-    name: sganbuild01_3
-    folder: FedoraHosted/sganbuild01_3
+    name: build02_3
+    folder: FedoraHosted/build02_3
     username: jam
 github_actions_host_agents:
-  - name: sganbuild01_1
+  - name: build02_1
     username: jam
-  - name: sganbuild01_2
+  - name: build02_2
     username: jam
-  - name: sganbuild01_3
+  - name: build02_3
     username: jam
 salt:
   cockpit:
