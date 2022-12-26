@@ -59,6 +59,7 @@ jamacer.jamesjonesconsulting.com
 jambrix.jamesjonesconsulting.com
 beebox.jamesjonesconsulting.com
 indpc.jamesjonesconsulting.com
+music.jamesjonesconsulting.com
 
 [salt_minion:children]
 kube_node

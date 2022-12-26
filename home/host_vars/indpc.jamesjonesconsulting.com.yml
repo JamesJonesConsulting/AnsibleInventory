@@ -13,3 +13,6 @@ vsts_host_agents:
 github_actions_host_agents:
   - name: indpc_1
     username: jam
+salt_master: build01.jamesjonesconsulting.com
+salt_states:
+  - cockpit
