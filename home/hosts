@@ -50,7 +50,18 @@ salt_minion
 [salt_master]
 build01.jamesjonesconsulting.com
 
+[salt_minion_inside_pfsense]
+build02.jamesjonesconsulting.com
+jamdb.jamesjonesconsulting.com
+
+[salt_minion_outside_pfsense]
+jamacer.jamesjonesconsulting.com
+jambrix.jamesjonesconsulting.com
+beebox.jamesjonesconsulting.com
+indpc.jamesjonesconsulting.com
+
 [salt_minion:children]
 kube_node
 kube_control_plane
-
+salt_minion_inside_pfsense
+salt_minion_outside_pfsense
