@@ -66,3 +66,6 @@ kube_node
 kube_control_plane
 salt_minion_inside_pfsense
 salt_minion_outside_pfsense
+
+[grafana]
+build02.jamesjonesconsulting.com
