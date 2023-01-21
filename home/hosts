@@ -41,6 +41,9 @@ kube_control_plane
 kube_control_plane
 kube_node
 
+[rancher:children]
+k8s_cluster
+
 ; [calico_rr]
 
 [salt:children]
