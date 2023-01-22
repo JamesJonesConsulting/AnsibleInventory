@@ -3,3 +3,4 @@ crio:
     - registry.fedoraproject.org
     - docker.io
     - quay.io
+    - nexus.jamesjonesconsulting.com:5444
