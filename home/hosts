@@ -44,6 +44,8 @@ kube_node
 [rancher:children]
 k8s_cluster
 
+[crio:children]
+rancher
 ; [calico_rr]
 
 [salt:children]

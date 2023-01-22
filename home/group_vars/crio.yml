@@ -1,0 +1,5 @@
+crio:
+  search_registries:
+    - registry.fedoraproject.org
+    - docker.io
+    - quay.io
