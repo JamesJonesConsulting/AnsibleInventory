@@ -7,47 +7,23 @@ gitlab_runner_host_count: 7
 gitlab_runner_host_run_untagged: true
 vsts_host_agents:
   - pool: FedoraHosted
-    name: jambrix_1
+    name: music_1
     folder: FedoraHosted/jambrix_1
     username: jam
   - pool: FedoraHosted
-    name: jambrix_2
+    name: music_2
     folder: FedoraHosted/jambrix_2
     username: jam
   - pool: FedoraHosted
-    name: jambrix_3
+    name: music_3
     folder: FedoraHosted/jambrix_3
     username: jam
-  - pool: FedoraHosted
-    name: jambrix_4
-    folder: FedoraHosted/jambrix_4
-    username: jam
-  - pool: FedoraHosted
-    name: jambrix_5
-    folder: FedoraHosted/jambrix_5
-    username: jam
-  - pool: FedoraHosted
-    name: jambrix_6
-    folder: FedoraHosted/jambrix_6
-    username: jam
-  - pool: FedoraHosted
-    name: jambrix_7
-    folder: FedoraHosted/jambrix_7
-    username: jam
 github_actions_host_agents:
-  - name: jambrix_1
+  - name: music_1
     username: jam
-  - name: jambrix_2
+  - name: music_2
     username: jam
-  - name: jambrix_3
-    username: jam
-  - name: jambrix_4
-    username: jam
-  - name: jambrix_5
-    username: jam
-  - name: jambrix_6
-    username: jam
-  - name: jambrix_7
+  - name: music_3
     username: jam
 salt_master: build01.jamesjonesconsulting.com
 salt_states:
