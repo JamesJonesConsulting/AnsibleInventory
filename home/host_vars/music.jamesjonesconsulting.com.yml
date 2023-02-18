@@ -8,15 +8,15 @@ gitlab_runner_host_run_untagged: true
 vsts_host_agents:
   - pool: FedoraHosted
     name: music_1
-    folder: FedoraHosted/jambrix_1
+    folder: FedoraHosted/music_1
     username: jam
   - pool: FedoraHosted
     name: music_2
-    folder: FedoraHosted/jambrix_2
+    folder: FedoraHosted/music_2
     username: jam
   - pool: FedoraHosted
     name: music_3
-    folder: FedoraHosted/jambrix_3
+    folder: FedoraHosted/music_3
     username: jam
 github_actions_host_agents:
   - name: music_1
