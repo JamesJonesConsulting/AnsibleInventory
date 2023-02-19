@@ -3,7 +3,7 @@ ansible_user: jam
 ansible_host: 192.168.1.19
 gitlab_runner_host_tags:
   - big-build
-gitlab_runner_host_count: 7
+gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
 vsts_host_agents:
   - pool: FedoraHosted

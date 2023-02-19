@@ -24,6 +24,8 @@ build01.jamesjonesconsulting.com
 build02.jamesjonesconsulting.com
 indpc.jamesjonesconsulting.com
 jamdb.jamesjonesconsulting.com
+lat5591.jamesjonesconsulting.com
+music.jamesjonesconsulting.com
 
 [kube_node]
 worker01.jamesjonesconsulting.com
