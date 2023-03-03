@@ -1,0 +1,5 @@
+---
+nexus:
+  tls:
+    domain: jamesjonesconsulting.com
+    root: /root/letsencrypt-certs/
