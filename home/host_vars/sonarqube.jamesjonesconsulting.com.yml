@@ -1,0 +1,13 @@
+---
+ansible_user: jam
+ansible_host: 192.168.1.35
+github_actions_host_agents:
+  - name: sonarqube_1
+    username: jam
+  - name: sonarqube_2
+    username: jam
+  - name: sonarqube_3
+    username: jam
+salt_master: build01.jamesjonesconsulting.com
+salt_states:
+  - cockpit
