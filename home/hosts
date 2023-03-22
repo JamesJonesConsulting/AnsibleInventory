@@ -8,6 +8,7 @@ indpc.jamesjonesconsulting.com
 jamdb.jamesjonesconsulting.com
 gitlab.jamesjonesconsulting.com
 sonarqube.jamesjonesconsulting.com
+jamtv.jamesjonesconsulting.com
 
 [vsts_agent]
 jamacer.jamesjonesconsulting.com
@@ -17,6 +18,7 @@ build01.jamesjonesconsulting.com
 build02.jamesjonesconsulting.com
 indpc.jamesjonesconsulting.com
 jamdb.jamesjonesconsulting.com
+jamtv.jamesjonesconsulting.com
 
 [github_actions_agents]
 jamacer.jamesjonesconsulting.com
@@ -30,6 +32,7 @@ lat5591.jamesjonesconsulting.com
 music.jamesjonesconsulting.com
 gitlab.jamesjonesconsulting.com
 sonarqube.jamesjonesconsulting.com
+jamtv.jamesjonesconsulting.com
 
 [kube_node]
 worker01.jamesjonesconsulting.com
@@ -71,6 +74,7 @@ jambrix.jamesjonesconsulting.com
 beebox.jamesjonesconsulting.com
 indpc.jamesjonesconsulting.com
 music.jamesjonesconsulting.com
+jamtv.jamesjonesconsulting.com
 
 [salt_minion:children]
 kube_node
