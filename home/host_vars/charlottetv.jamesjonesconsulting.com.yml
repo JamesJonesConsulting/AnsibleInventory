@@ -1,0 +1,30 @@
+---
+ansible_user: jam
+ansible_host: 192.168.1.43
+gitlab_runner_host_tags:
+  - small-build
+gitlab_runner_host_count: 3
+gitlab_runner_host_run_untagged: true
+vsts_host_agents:
+  - pool: FedoraHosted
+    name: charlottetv_1
+    folder: FedoraHosted/charlottetv_1
+    username: jam
+  - pool: FedoraHosted
+    name: charlottetv_2
+    folder: FedoraHosted/charlottetv_2
+    username: jam
+  - pool: FedoraHosted
+    name: charlottetv_3
+    folder: FedoraHosted/charlottetv_3
+    username: jam
+github_actions_host_agents:
+  - name: charlottetv_1
+    username: jam
+  - name: charlottetv_2
+    username: jam
+  - name: charlottetv_3
+    username: jam
+salt_master: build01.jamesjonesconsulting.com
+salt_states:
+  - cockpit
