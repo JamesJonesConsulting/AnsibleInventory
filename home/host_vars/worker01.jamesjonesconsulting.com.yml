@@ -1,4 +1,4 @@
-ansible_user: jamjon3
+ansible_user: jam
 ansible_host: 192.168.1.101
 ip: 192.168.1.101
 access_ip: 192.168.1.101
