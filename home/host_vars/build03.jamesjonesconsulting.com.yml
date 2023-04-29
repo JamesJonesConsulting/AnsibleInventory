@@ -1,29 +1,29 @@
 ---
 ansible_user: jam
-ansible_host: 192.168.1.37
+ansible_host: 192.168.1.122
 gitlab_runner_host_tags:
-  - big-build
+  - small-build
 gitlab_runner_host_count: 3
 gitlab_runner_host_run_untagged: true
 vsts_host_agents:
   - pool: FedoraHosted
-    name: music_1
-    folder: FedoraHosted/music_1
+    name: build03_1
+    folder: FedoraHosted/build03_1
     username: jam
   - pool: FedoraHosted
-    name: music_2
-    folder: FedoraHosted/music_2
+    name: build03_2
+    folder: FedoraHosted/build03_2
     username: jam
   - pool: FedoraHosted
-    name: music_3
-    folder: FedoraHosted/music_3
+    name: build03_3
+    folder: FedoraHosted/build03_3
     username: jam
 github_actions_host_agents:
-  - name: music_1
+  - name: build03_1
     username: jam
-  - name: music_2
+  - name: build03_2
     username: jam
-  - name: music_3
+  - name: build03_3
     username: jam
 salt_master: build01.jamesjonesconsulting.com
 salt_states:
