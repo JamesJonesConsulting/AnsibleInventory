@@ -1,0 +1,18 @@
+---
+ansible_user: jam
+ansible_host: 192.168.1.147
+gitlab_runner_host_tags:
+  - big-build
+gitlab_runner_host_count: 3
+gitlab_runner_host_run_untagged: true
+vsts_host_agents:
+  - pool: FedoraHosted
+    name: nexus_1
+    folder: FedoraHosted/nexus_1
+    username: jam
+github_actions_host_agents:
+  - name: nexus_1
+    username: jam
+salt_master: build01.jamesjonesconsulting.com
+salt_states:
+  - cockpit

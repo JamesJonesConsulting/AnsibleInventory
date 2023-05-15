@@ -13,6 +13,7 @@ sonarqube.jamesjonesconsulting.com
 jamtv.jamesjonesconsulting.com
 charlottetv.jamesjonesconsulting.com
 computestick.jamesjonesconsulting.com
+nexus.jamesjonesconsulting.com
 
 [vsts_agent]
 jamacer.jamesjonesconsulting.com
@@ -27,6 +28,7 @@ jamdb.jamesjonesconsulting.com
 jamtv.jamesjonesconsulting.com
 charlottetv.jamesjonesconsulting.com
 computestick.jamesjonesconsulting.com
+nexus.jamesjonesconsulting.com
 
 [github_actions_agents]
 jamacer.jamesjonesconsulting.com
@@ -45,6 +47,7 @@ sonarqube.jamesjonesconsulting.com
 jamtv.jamesjonesconsulting.com
 charlottetv.jamesjonesconsulting.com
 computestick.jamesjonesconsulting.com
+nexus.jamesjonesconsulting.com
 
 [kube_node]
 worker01.jamesjonesconsulting.com
@@ -89,6 +92,7 @@ music.jamesjonesconsulting.com
 jamtv.jamesjonesconsulting.com
 charlottetv.jamesjonesconsulting.com
 computestick.jamesjonesconsulting.com
+nexus.jamesjonesconsulting.com
 
 [salt_minion:children]
 kube_node
@@ -103,7 +107,7 @@ build01.jamesjonesconsulting.com
 music.jamesjonesconsulting.com
 
 [nexus]
-indpc.jamesjonesconsulting.com
+nexus.jamesjonesconsulting.com
 
 [gitlab]
 gitlab.jamesjonesconsulting.com
