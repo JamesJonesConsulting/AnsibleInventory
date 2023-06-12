@@ -114,3 +114,8 @@ gitlab.jamesjonesconsulting.com
 
 [sonarqube]
 sonarqube.jamesjonesconsulting.com
+
+[vip_router]
+control01.jamesjonesconsulting.com
+control02.jamesjonesconsulting.com
+control03.jamesjonesconsulting.com
