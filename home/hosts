@@ -119,3 +119,8 @@ sonarqube.jamesjonesconsulting.com
 control01.jamesjonesconsulting.com
 control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
+
+[consul]
+control01.jamesjonesconsulting.com
+control02.jamesjonesconsulting.com
+control03.jamesjonesconsulting.com
