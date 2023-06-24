@@ -55,6 +55,7 @@ nexus.jamesjonesconsulting.com
 [kube_node]
 worker01.jamesjonesconsulting.com
 worker02.jamesjonesconsulting.com
+worker03.jamesjonesconsulting.com
 
 [kube_control_plane]
 control01.jamesjonesconsulting.com

@@ -1,0 +1,7 @@
+ansible_user: jam
+ansible_host: 192.168.1.58
+ip: 192.168.1.58
+access_ip: 192.168.1.58
+salt_master: build01.jamesjonesconsulting.com
+salt_states:
+  - cockpit
