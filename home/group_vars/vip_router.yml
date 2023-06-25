@@ -2,5 +2,6 @@ vip_ip_address: 192.168.1.110
 vip_router_id: 10
 vip_router: nginx
 vip_router_package: nginx
-vip_consul_templates:
+vip_consul_confs:
   - consul-ui
+vip_consul_streams: []
