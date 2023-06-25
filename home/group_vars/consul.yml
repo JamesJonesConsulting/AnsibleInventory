@@ -1,1 +1,2 @@
 consul_server_group: consul_servers
+consul_client_group: consul
