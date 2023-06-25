@@ -5,3 +5,4 @@ vip_router_package: nginx
 vip_consul_confs:
   - consul-ui
 vip_consul_streams: []
+vip_consul_san_certs: []
