@@ -134,4 +134,7 @@ consul_servers
 consul_clients
 
 [consul_clients]
-build04.jamesjonesconsulting.com
+build01.jamesjonesconsulting.com
+build02.jamesjonesconsulting.com
+build03.jamesjonesconsulting.com
+; build04.jamesjonesconsulting.com
