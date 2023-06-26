@@ -1,0 +1,3 @@
+nomad_server_group: nomad_servers
+nomad_client_group: nomad_clients
+nomad_datacenter: ymdllc
