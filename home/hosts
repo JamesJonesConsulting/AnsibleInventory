@@ -151,7 +151,8 @@ control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
 
 [consul_clients]
-worker01.jamesjonesconsulting.com
+storage01.jamesjonesconsulting.com
+; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
 ; worker03.jamesjonesconsulting.com
 ; jamacer.jamesjonesconsulting.com
