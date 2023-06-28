@@ -133,6 +133,9 @@ control03.jamesjonesconsulting.com
 consul_servers
 consul_clients
 
+[storage]
+storage01.jamesjonesconsulting.com
+
 [nomad:children]
 nomad_servers
 nomad_clients
