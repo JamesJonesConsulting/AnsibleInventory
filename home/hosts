@@ -139,8 +139,8 @@ nomad_clients
 
 [nomad_clients]
 worker01.jamesjonesconsulting.com
-worker02.jamesjonesconsulting.com
-worker03.jamesjonesconsulting.com
+; worker02.jamesjonesconsulting.com
+; worker03.jamesjonesconsulting.com
 
 [nomad_servers]
 control01.jamesjonesconsulting.com
@@ -149,17 +149,17 @@ control03.jamesjonesconsulting.com
 
 [consul_clients]
 worker01.jamesjonesconsulting.com
-worker02.jamesjonesconsulting.com
-worker03.jamesjonesconsulting.com
-jamacer.jamesjonesconsulting.com
-jambrix.jamesjonesconsulting.com
-beebox.jamesjonesconsulting.com
-eglobalr9.jamesjonesconsulting.com
-jamdb.jamesjonesconsulting.com
-gitlab.jamesjonesconsulting.com
-sonarqube.jamesjonesconsulting.com
-jamtv.jamesjonesconsulting.com
-build01.jamesjonesconsulting.com
-build02.jamesjonesconsulting.com
-build03.jamesjonesconsulting.com
-build04.jamesjonesconsulting.com
+; worker02.jamesjonesconsulting.com
+; worker03.jamesjonesconsulting.com
+; jamacer.jamesjonesconsulting.com
+; jambrix.jamesjonesconsulting.com
+; beebox.jamesjonesconsulting.com
+; eglobalr9.jamesjonesconsulting.com
+; jamdb.jamesjonesconsulting.com
+; gitlab.jamesjonesconsulting.com
+; sonarqube.jamesjonesconsulting.com
+; jamtv.jamesjonesconsulting.com
+; build01.jamesjonesconsulting.com
+; build02.jamesjonesconsulting.com
+; build03.jamesjonesconsulting.com
+; build04.jamesjonesconsulting.com
