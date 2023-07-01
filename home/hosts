@@ -136,14 +136,20 @@ consul_clients
 [storage]
 storage01.jamesjonesconsulting.com
 
+[nfs_clients:children]
+nomad_clients
+
+[nfs_servers:children]
+storage
+
 [nomad:children]
 nomad_servers
 nomad_clients
 
 [nomad_clients]
-worker01.jamesjonesconsulting.com
-; worker02.jamesjonesconsulting.com
-; worker03.jamesjonesconsulting.com
+; worker01.jamesjonesconsulting.com
+worker02.jamesjonesconsulting.com
+worker03.jamesjonesconsulting.com
 
 [nomad_servers]
 control01.jamesjonesconsulting.com
