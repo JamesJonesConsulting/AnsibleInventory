@@ -136,6 +136,12 @@ consul_clients
 [storage]
 storage01.jamesjonesconsulting.com
 
+[smb_clients:children]
+nomad_clients
+
+[smb_servers:children]
+storage
+
 [nfs_clients:children]
 nomad_clients
 
