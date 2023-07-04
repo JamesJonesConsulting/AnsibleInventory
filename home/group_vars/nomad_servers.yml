@@ -2,3 +2,4 @@ nomad_sites:
   riftspan:
     domain: riftspan.com
     storage: /opt/nomad/data/nfs/riftspan.com
+    database: riftspan.com
