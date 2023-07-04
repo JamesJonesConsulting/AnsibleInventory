@@ -1,5 +1,7 @@
 nomad_sites:
   riftspan:
     domain: riftspan.com
+    alt_names: www.riftspan.com
     storage: /opt/nomad/data/nfs/riftspan.com
     database: riftspan.com
+    cert_root: riftspan.com
