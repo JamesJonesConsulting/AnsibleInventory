@@ -154,8 +154,9 @@ nomad_clients
 
 [nomad_clients]
 ; worker01.jamesjonesconsulting.com
-worker02.jamesjonesconsulting.com
-worker03.jamesjonesconsulting.com
+; worker02.jamesjonesconsulting.com
+; worker03.jamesjonesconsulting.com
+worker04.jamesjonesconsulting.com
 
 [nomad_servers]
 control01.jamesjonesconsulting.com
@@ -163,7 +164,8 @@ control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
 
 [consul_clients]
-music.jamesjonesconsulting.com
+worker04.jamesjonesconsulting.com
+; music.jamesjonesconsulting.com
 ; storage01.jamesjonesconsulting.com
 ; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
