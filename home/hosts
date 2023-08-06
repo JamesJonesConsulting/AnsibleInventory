@@ -56,6 +56,8 @@ nexus.jamesjonesconsulting.com
 worker01.jamesjonesconsulting.com
 worker02.jamesjonesconsulting.com
 worker03.jamesjonesconsulting.com
+worker04.jamesjonesconsulting.com
+worker05.jamesjonesconsulting.com
 
 [kube_control_plane]
 control01.jamesjonesconsulting.com
@@ -156,7 +158,8 @@ nomad_clients
 ; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
 ; worker03.jamesjonesconsulting.com
-worker04.jamesjonesconsulting.com
+; worker04.jamesjonesconsulting.com
+worker05.jamesjonesconsulting.com
 
 [nomad_servers]
 control01.jamesjonesconsulting.com
@@ -164,12 +167,13 @@ control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
 
 [consul_clients]
-worker04.jamesjonesconsulting.com
+worker05.jamesjonesconsulting.com
 ; music.jamesjonesconsulting.com
 ; storage01.jamesjonesconsulting.com
 ; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
 ; worker03.jamesjonesconsulting.com
+; worker04.jamesjonesconsulting.com
 ; jamacer.jamesjonesconsulting.com
 ; jambrix.jamesjonesconsulting.com
 ; beebox.jamesjonesconsulting.com
