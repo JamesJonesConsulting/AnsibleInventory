@@ -167,9 +167,9 @@ control02.jamesjonesconsulting.com
 control03.jamesjonesconsulting.com
 
 [consul_clients]
-worker05.jamesjonesconsulting.com
+; worker05.jamesjonesconsulting.com
 ; music.jamesjonesconsulting.com
-; storage01.jamesjonesconsulting.com
+storage01.jamesjonesconsulting.com
 ; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
 ; worker03.jamesjonesconsulting.com
@@ -186,3 +186,9 @@ worker05.jamesjonesconsulting.com
 ; build02.jamesjonesconsulting.com
 ; build03.jamesjonesconsulting.com
 ; build04.jamesjonesconsulting.com
+
+[pipewire_roc]
+jamacer.jamesjonesconsulting.com
+
+[pipewire_roc_clients]
+music.jamesjonesconsulting.com
