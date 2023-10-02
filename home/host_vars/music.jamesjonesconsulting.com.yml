@@ -28,3 +28,6 @@ github_actions_host_agents:
 salt_master: build01.jamesjonesconsulting.com
 salt_states:
   - cockpit
+usbip_devices:
+  - e5b7:0811
+  - 1a86:752d
