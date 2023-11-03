@@ -195,3 +195,12 @@ music.jamesjonesconsulting.com
 
 [usbip]
 music.jamesjonesconsulting.com
+
+[ansible_semaphore]
+beebox.jamesjonesconsulting.com
+
+[ansible_semaphore_runners]
+build01.jamesjonesconsulting.com
+build02.jamesjonesconsulting.com
+build03.jamesjonesconsulting.com
+build04.jamesjonesconsulting.com
