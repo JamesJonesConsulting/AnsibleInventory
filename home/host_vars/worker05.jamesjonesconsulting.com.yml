@@ -5,3 +5,7 @@ access_ip: 192.168.1.64
 salt_master: build01.jamesjonesconsulting.com
 salt_states:
   - cockpit
+lan_interfaces:
+  - ip: 192.168.1.64
+    name: enp2s0
+  
