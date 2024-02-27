@@ -212,8 +212,8 @@ worker_hosts
 [master_hosts]
 bootstrap.okd.jamesjonesconsulting.com
 control-plane01.okd.jamesjonesconsulting.com
-control-plane01.okd.jamesjonesconsulting.com
-control-plane01.okd.jamesjonesconsulting.com
+control-plane02.okd.jamesjonesconsulting.com
+control-plane03.okd.jamesjonesconsulting.com
 
 [worker_hosts]
 compute01.okd.jamesjonesconsulting.com
