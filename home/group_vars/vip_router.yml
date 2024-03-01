@@ -1,5 +1,13 @@
 vip_ip_address: 192.168.1.110
 vip_router_id: 10
+vip:
+  keepalived:
+    VI_1:
+      address: 192.168.1.110
+      router_id: 10
+    OKD_1:
+      address: 192.133.0.128
+      router_id: 11
 vip_router: nginx
 vip_router_package: nginx
 vip_consul_confs:
@@ -10,3 +18,5 @@ vip_consul_streams: []
 vip_consul_san_certs:
   - apps.jamesjonesconsulting.com
   - jamesjonesconsulting.com
+  - apps.okd.jamesjonesconsulting.com
+  - okd.jamesjonesconsulting.com
