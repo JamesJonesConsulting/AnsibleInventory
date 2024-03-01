@@ -1,5 +1,6 @@
 vip_ip_address: 192.168.1.110
 vip_router_id: 10
+default_keepalived_vip: VI_1
 keepalived_vips:
   VI_1:
     address: 192.168.1.110
