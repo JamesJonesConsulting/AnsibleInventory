@@ -1,3 +1,3 @@
 ---
-ansible_user: jam
+ansible_user: core
 nginx_weight: 5
