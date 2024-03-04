@@ -221,6 +221,9 @@ compute02.okd.jamesjonesconsulting.com
 compute03.okd.jamesjonesconsulting.com
 compute04.okd.jamesjonesconsulting.com
 compute05.okd.jamesjonesconsulting.com
+control-plane01.okd.jamesjonesconsulting.com
+control-plane02.okd.jamesjonesconsulting.com
+control-plane03.okd.jamesjonesconsulting.com
 
 [ignition]
 jambrix.jamesjonesconsulting.com
