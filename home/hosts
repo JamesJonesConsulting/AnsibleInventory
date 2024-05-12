@@ -136,7 +136,7 @@ consul_servers
 consul_clients
 
 [storage]
-storage01.jamesjonesconsulting.com
+jamacer.jamesjonesconsulting.com
 
 [smb_clients:children]
 nomad_clients
@@ -169,7 +169,7 @@ control03.jamesjonesconsulting.com
 [consul_clients]
 ; worker05.jamesjonesconsulting.com
 ; music.jamesjonesconsulting.com
-storage01.jamesjonesconsulting.com
+jamacer.jamesjonesconsulting.com
 ; worker01.jamesjonesconsulting.com
 ; worker02.jamesjonesconsulting.com
 ; worker03.jamesjonesconsulting.com
