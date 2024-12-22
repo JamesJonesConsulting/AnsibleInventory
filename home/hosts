@@ -114,6 +114,9 @@ salt_minion_outside_pfsense
 [grafana]
 build01.jamesjonesconsulting.com
 
+[dav]
+dav.jamesjonesconsulting.com
+
 [awx]
 music.jamesjonesconsulting.com
 
